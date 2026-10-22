@@ -1,0 +1,181 @@
+export const ALCOHOLIC_LABELS = {
+  Alcoholic: "Alcoolisé",
+  "Non alcoholic": "Sans alcool",
+  "Optional alcohol": "Alcool en option",
+};
+
+export const CATEGORY_LABELS = {
+  Cocktail: "Cocktail",
+  "Ordinary Drink": "Boisson classique",
+  Shake: "Milkshake",
+  "Other / Unknown": "Smoothies & cie",
+  Cocoa: "Chocolat chaud",
+  "Coffee / Tea": "Café / Thé",
+  "Soft Drink": "Soda",
+  Shot: "Shot",
+  "Punch / Party Drink": "Punch",
+  Beer: "Bière",
+  "Homemade Liqueur": "Liqueur maison",
+};
+
+export const GLASS_LABELS = {
+  "highball glass": "Verre highball",
+  "collins glass": "Verre Collins",
+  "cocktail glass": "Verre à cocktail",
+  "white wine glass": "Verre à vin blanc",
+  "wine glass": "Verre à vin",
+  "punch bowl": "Bol à punch",
+  "coffee mug": "Mug",
+  "old-fashioned glass": "Verre old fashioned",
+  "hurricane glass": "Verre hurricane",
+  "margarita glass": "Verre à margarita",
+  "champagne flute": "Flûte à champagne",
+  "shot glass": "Verre à shot",
+  "mason jar": "Bocal",
+};
+
+export const INGREDIENT_LABELS = {
+  water: "Eau",
+  sugar: "Sucre",
+  yoghurt: "Yaourt",
+  "orange juice": "Jus d'orange",
+  "lemon juice": "Jus de citron",
+  "pineapple juice": "Jus d'ananas",
+  banana: "Banane",
+  ice: "Glaçons",
+  "apple juice": "Jus de pomme",
+  milk: "Lait",
+  strawberries: "Fraises",
+  lemon: "Citron",
+  ginger: "Gingembre",
+  "soda water": "Eau gazeuse",
+  salt: "Sel",
+  grenadine: "Grenadine",
+  pineapple: "Ananas",
+  "sugar syrup": "Sirop de sucre",
+  honey: "Miel",
+  "ginger ale": "Ginger ale",
+  lime: "Citron vert",
+  apple: "Pomme",
+  "passion fruit juice": "Jus de fruit de la passion",
+  "chocolate syrup": "Sirop de chocolat",
+  fruit: "Fruits",
+  sherbet: "Sorbet",
+  "brown sugar": "Sucre roux",
+  mango: "Mangue",
+  cream: "Crème",
+  "guava juice": "Jus de goyave",
+  "grapefruit juice": "Jus de pamplemousse",
+  "maraschino cherry": "Cerise confite",
+  berries: "Fruits rouges",
+  carrot: "Carotte",
+  cantaloupe: "Melon",
+  "cranberry juice": "Jus de cranberry",
+  "fruit juice": "Jus de fruits",
+  grapes: "Raisin",
+  "grape juice": "Jus de raisin",
+  "mint syrup": "Sirop de menthe",
+  kiwi: "Kiwi",
+  papaya: "Papaye",
+  mint: "Menthe",
+  "lime peel": "Zeste de citron vert",
+  orange: "Orange",
+  "peach nectar": "Nectar de pêche",
+  cinnamon: "Cannelle",
+  cloves: "Clous de girofle",
+  "lime juice": "Jus de citron vert",
+  "tomato juice": "Jus de tomate",
+  "coca-cola": "Coca-Cola",
+  "almond flavoring": "Arôme d'amande",
+  "carbonated soft drink": "Soda",
+  "cumin seed": "Graines de cumin",
+  asafoetida: "Ase fétide",
+  "cayenne pepper": "Piment de Cayenne",
+  "celery salt": "Sel de céleri",
+};
+
+export const MEASURE_LABELS = {
+  "1 part": "1 part",
+  "4 parts": "4 parts",
+  "1 large": "1 grosse",
+  "1 frozen": "1 surgelée",
+  "1/2 piece textural": "1/2 morceau",
+  ", orange": "",
+  "2 pieces": "2 morceaux",
+  "4-6": "4 à 6",
+  "8-10 ripe": "8 à 10 bien mûres",
+  "3/4 cup": "18 cl",
+  "1 cup": "25 cl",
+  "1 1/2 cup": "37 cl",
+  "1 1/4 cup cold": "30 cl, froide",
+  "1/2 cup": "12 cl",
+  "1/2 cup plain": "12 cl, nature",
+  "1 cup plain": "25 cl, nature",
+  "1 cup fruit": "25 cl de fruits",
+  "1 cup hot": "25 cl, chaude",
+  "1 cup iced": "25 cl, glacée",
+  "2 cups": "50 cl",
+  "2 cups cold": "50 cl, froide",
+  "2 cups fresh": "50 cl, frais",
+  "3-4 cups": "75 cl à 1 L",
+  "4 cups": "1 L",
+  "1/4 tsp": "1/4 c. à café",
+  "1/4 tsp dried": "1/4 c. à café, séchée",
+  "1/2 tsp": "1/2 c. à café",
+  "1/2 tsp ground roasted": "1/2 c. à café, torréfiées et moulues",
+  "1 tsp": "1 c. à café",
+  "2 tsp": "2 c. à café",
+  "4 tsp": "4 c. à café",
+  "1 tblsp": "1 c. à soupe",
+  "1 1/2 tblsp": "1,5 c. à soupe",
+  "1-2 tblsp": "1 à 2 c. à soupe",
+  "2 tblsp": "2 c. à soupe",
+  "4 tblsp": "4 c. à soupe",
+  "6 oz": "18 cl",
+  "6 oz whole": "18 cl, entier",
+  "4 oz frozen": "120 g, surgelé",
+  "20 oz": "60 cl",
+  "46 oz": "1,4 L",
+  "1/2 lb frozen": "225 g, surgelées",
+  "1 lb": "450 g",
+  "2 qt": "2 L",
+  "1 gal": "3,8 L",
+  "1 can frozen": "1 boîte (surgelé)",
+  "1 inch": "2,5 cm",
+  "1/4 inch": "5 mm",
+  "3 3-inch": "3 bâtons de 7 cm",
+  "10 cl cold": "10 cl, froid",
+  "7 drops": "7 gouttes",
+  "1 dash": "1 trait",
+  pinch: "1 pincée",
+  "1 pinch": "1 pincée",
+  "to taste": "selon le goût",
+  "top up with": "pour compléter",
+  fill: "pour remplir",
+  ground: "moulu",
+  "Juice of 1": "le jus d'1 fruit",
+  "Juice of 1/2": "le jus d'1/2 fruit",
+  "(seltzer water)": "(eau de Seltz)",
+  "½": "1/2",
+};
+
+export const translateAlcoholic = (value) => ALCOHOLIC_LABELS[value] || value;
+export const translateCategory = (value) => CATEGORY_LABELS[value] || value;
+export const translateGlass = (value) => GLASS_LABELS[value?.toLowerCase()] || value;
+export const translateIngredient = (value) =>
+  INGREDIENT_LABELS[value?.trim().toLowerCase()] || value;
+export const translateMeasure = (value) => MEASURE_LABELS[value] ?? value;
+
+export const getInstructions = (drink) =>
+  (drink.strInstructionsFR || drink.strInstructions || "").replace(/\s+[–—]\s+/g, ", ");
+
+export const getIngredients = (drink) => {
+  const list = [];
+  for (let i = 1; i <= 15; i++) {
+    const ingredient = drink[`strIngredient${i}`];
+    if (ingredient) {
+      list.push({ name: ingredient.trim(), measure: drink[`strMeasure${i}`]?.trim() || "" });
+    }
+  }
+  return list;
+};
